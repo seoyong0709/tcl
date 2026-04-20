@@ -1,0 +1,574 @@
+{
+  "accounts": {
+    "HOANGTTK": "Trần Thị Kim Hoàng - TCKT",
+    "HADTT1": "Đào Thị Thu Hà - TCKT",
+    "VANCT": "Cao Thị Vân - TCKT",
+    "HIENVTT": "Vũ Thị Thu Hiền - TCKT",
+    "TANNX1": "Nguyễn Xuân Tân - TCKT",
+    "THUANTT": "Trần Thị Thuận - TCKT",
+    "HANGHTT2": "Hoàng Thị Thu Hằng - TCKT",
+    "HUENT7": "Nguyễn Thị Huệ - TCKT",
+    "HIEULN": "Lê Nam Hiếu - TCKT",
+    "OANHPTH1": "Phạm Thị Hải Oanh - HCHC",
+    "THONGNV": "Nguyễn Văn Thông - HCHC",
+    "THUYNV1": "Nguyễn Văn Thủy - HCHC",
+    "THANHPH1": "Phạm Huy Thanh - HCHC",
+    "LANVTM": "Vũ Thị Mai Lan - HCHC",
+    "HANGDT2": "Dương Thị Hằng - HCHC",
+    "LUANHD": "Hồ Doãn Luân - HCHC",
+    "MYNX": "Nguyễn Xuân Mỹ - HCHC",
+    "HUELT2": "Lê Thị Huế - HCHC",
+    "NHUONGLT": "Lương Thị Nhường - HCHC",
+    "HUNGNT15": "Nguyễn Thanh Hùng - HCHC",
+    "HAPV": "Phạm Việt Hà - HCHC",
+    "VANNT5": "Nguyễn Thị Vân - HCHC",
+    "TOANVV": "Võ Văn Toàn - HCHC",
+    "DATNT14": "Nguyễn Tấn Đạt - HCHC",
+    "THUNT1": "Nguyễn Thị Thu - HCHC",
+    "HANN": "Nguyễn Ngọc Hà - HCHC",
+    "TOANNN": "Nguyễn Ngọc Toàn - HCHC",
+    "HANTT": "Nguyễn Thị Thu Hà - HCHC",
+    "BACHDV": "Đặng Văn Bách - HCHC",
+    "SONTD1": "Trịnh Đức Sơn - HCHC",
+    "HANHDT": "Đào Thị Hạnh - HCHC",
+    "PHUONGDTL": "Đỗ Thị Lan Phương - TCLĐ-TL",
+    "NGALDQ": "Lê Đặng Quỳnh Nga - TCLĐ-TL",
+    "YENNT4": "Nguyễn Thị Yến - TCLĐ-TL",
+    "THUYTP": "Trần Phương Thủy - TCLĐ-TL",
+    "YENNH": "Nguyễn Hải Yến - KHKD",
+    "TUNGBV": "Bùi Việt Tùng - KHKD",
+    "ANHNN3": "Nguyễn Nguyệt Anh - KHKD",
+    "NHUNGPT": "Phạm Thị Nhung - KHKD",
+    "VANNTK1": "Nguyễn Thị Khánh Vân - KHKD",
+    "HANHDT1": "Đới Thị Hạnh - KHKD",
+    "MANUT": "Uông Thị Mận - KHKD",
+    "OANHTTT": "Nguyễn Thị Tố Oanh - KHKD",
+    "NGANPTK": "Phạm Thị Kim Ngân - KHKD",
+    "THUVT1": "Vũ Thị Thu - KHKD",
+    "MYNTH": "Nguyễn Thị Hà My - KHKD",
+    "HAPT2": "Phạm Thị Hà - KHKD",
+    "TRANGLTT": "Lương Thị Thùy Trang - KHKD",
+    "THUANDM": "Dương Minh Thuận - KHKD",
+    "THAONTP2": "Nguyễn Thị Phương Thảo - KHKD",
+    "THUNTM": "Nguyễn Thị Minh Thu - KHKD",
+    "PHONGNT2": "Nguyễn Tiên Phong - KHKD",
+    "VUNCH": "Nguyễn Công Hoài Vũ - KHKD",
+    "HUNGNQ1": "Ngô Quang Hưng - KHKD",
+    "MANHPD": "Phạm Đức Mạnh - KHKD",
+    "DUCNV1": "Nguyễn Viết Đức. - KHKD",
+    "DUONGNH2": "Nguyễn Huy Dương - KHKD",
+    "NAMNH3": "Ngô Hải Nam - KHKD",
+    "NGOCTK": "Trịnh Khánh Ngọc - KHKD",
+    "DUONGNHT": "Hoàng Thị Thùy Dương - KHKD",
+    "NGOCVTH": "Võ Thị Hải Ngọc - KHKD",
+    "THAOKTP": "Khổng Thị Phương Thảo - KHKD",
+    "THAOBP": "Bùi Phương Thảo - KHKD",
+    "LAMNT6": "Nguyễn Tùng Lâm - KHKD",
+    "THIETNV2": "Nguyễn Văn Thiết - KHKD",
+    "DATDT": "Đào Trọng Đạt - KHKD",
+    "THUNPA": "Nguyễn Phạm Anh Thư - KHKD",
+    "HANGNTT": "Nguyễn Thị Thúy Hằng - KHKD",
+    "LANT": "Ngô Thị La - KHKD",
+    "THUDT": "Dương Thị Thu - KHKD",
+    "CHILT": "Lê Thị Chi - KHKD",
+    "HANHNTM": "Nguyễn Thị Minh Hạnh - KHKD",
+    "ANHNTL": "Nguyễn Thị Lan Anh - KHKD",
+    "NGANLT": "Lê Thị Ngân - KHKD",
+    "HALTT": "Lê Thị Thu Hà - KHKD",
+    "THANHNT4": "Nguyễn Tiến Thành - KHKD",
+    "LAMNTH": "Nguyễn Thị Hồng Lam - KHKD",
+    "LYDTH": "Đặng Thị Hoa Lý - KHKD",
+    "NGOCDH2": "Đỗ Hồng Ngọc - KHKD",
+    "HUONGTT2": "Trần Thị Hương - KHKD",
+    "HUENH1": "Nguyễn Hồng Huế - KHKD",
+    "YENDT2": "Đoàn Thị Yến - KHKD",
+    "PHUCDTH": "Đỗ Thị Hồng Phúc - KHKD",
+    "HANHTT": "Trần Thị Hạnh - KHKD",
+    "HANGVTT": "Vũ Thị Thu Hằng - KHKD",
+    "ANHDT": "Đào Tuấn Anh - KHKD",
+    "HIENTV": "Thái Văn Hiền - ĐTPC",
+    "SANGNX": "Nguyễn Xuân Sáng - ĐTPC",
+    "ATNT": "Nguyễn Thế Ất - ĐTPC",
+    "TRANGPT1": "Phạm Thị Trang - ĐTPC",
+    "TAMTT": "Trần Thanh Tâm - ĐTPC",
+    "HANHNH1": "Nguyễn Hồng Hạnh - ĐTPC",
+    "THAOTTH1": "Trần Thị Hương Thảo - ĐTPC",
+    "THEMDD": "Đoàn Đức Thêm - ĐTPC",
+    "TIENNX1": "Nguyễn Xuân Tiến - ĐTPC",
+    "LINHDH1": "Đoàn Hoàng Linh - ĐTPC",
+    "HAHT": "Hồ Thanh Hà - KTVT",
+    "HUYDD": "Đỗ Duy Huy - KTVT",
+    "THUYNA": "Ngô Anh Thùy - KTVT",
+    "TUYENDS": "Đào Sơn Tuyên - KTVT",
+    "TANNV": "Nguyễn Văn Tân - KTVT",
+    "KHIEMHH": "Hoàng Hữu Khiêm - KTVT",
+    "HAITV2": "Trần Vũ Hải - KTVT",
+    "THULM1": "Lý Minh Thư - KTVT",
+    "THIND": "Nguyễn Đình Thi - KTVT",
+    "MYNP": "Nguyễn Phan Mỹ - ĐIỀU ĐỘ",
+    "HUNGPP": "Phạm Phi Hùng - ĐIỀU ĐỘ",
+    "ANHLT1": "Lê Tuấn Anh - ĐIỀU ĐỘ",
+    "KHANHLB": "Lê Bá Khánh - ĐIỀU ĐỘ",
+    "LUANNV2": "Nguyễn Văn Luân - ĐIỀU ĐỘ",
+    "DONGNV": "Ngô Văn Đông - ĐIỀU ĐỘ",
+    "LYLK": "Lê Kim Lý - ĐIỀU ĐỘ",
+    "QUOCLV": "Lê Văn Quốc - ĐIỀU ĐỘ",
+    "DUYNN": "Nguyễn Ngọc Duy - ĐIỀU ĐỘ",
+    "HUYDL1": "Đồng Lê Huy - ĐIỀU ĐỘ",
+    "HUNGNM2": "Nguyễn Mạnh Hùng - ĐIỀU ĐỘ",
+    "PHUCHD": "Hoàng Đức Phúc - ĐIỀU ĐỘ",
+    "BAOT": "Trần Bảo - ĐIỀU ĐỘ",
+    "TUNT": "Nguyễn Thanh Tú - ĐIỀU ĐỘ",
+    "KHANHLM1": "Lê Minh Khánh - ĐIỀU ĐỘ",
+    "HUYBQ3": "Bùi Quang Huy - ĐIỀU ĐỘ",
+    "HAINV7": "Nguyễn Văn Hải - ĐIỀU ĐỘ",
+    "DONGNV1": "Nguyễn Văn Đông - ĐIỀU ĐỘ",
+    "CHUNGNT2": "Nguyễn Thành Chung - ĐIỀU ĐỘ",
+    "VUONGNT": "Nguyễn Trần Vương - ĐIỀU ĐỘ",
+    "BINHTT2": "Trần Thanh Bình - ĐIỀU ĐỘ",
+    "KIENTT": "Trịnh Trung Kiên - ĐIỀU ĐỘ",
+    "BINHLT2": "Lê Thanh Bình - ĐIỀU ĐỘ",
+    "BINHDT3": "Đặng Thanh Bình - ĐIỀU ĐỘ",
+    "NGOCNT1": "Nguyễn Tuấn Ngọc - ĐIỀU ĐỘ",
+    "BINHTH": "Trần Hữu Bình - ĐIỀU ĐỘ",
+    "DUNGVD": "Vũ Đình Dũng - ĐIỀU ĐỘ",
+    "TUONGMD": "Mai Đình Tưởng - ĐIỀU ĐỘ",
+    "TUANVA2": "Vũ Anh Tuấn - ĐIỀU ĐỘ",
+    "LUCHD": "Hoàng Duy Lực - ĐIỀU ĐỘ",
+    "SONNT12": "Nguyễn Trần Sơn - ĐIỀU ĐỘ",
+    "HUYPQ1": "Phạm Quang Huy - ĐIỀU ĐỘ",
+    "HUNGTM": "Tiểu Mạnh Hưng - ĐIỀU ĐỘ",
+    "DICHNV1": "Nguyễn Văn Đích - ĐIỀU ĐỘ",
+    "TIENLN1": "Lê Ngọc Tiến - ĐIỀU ĐỘ",
+    "KIENNN": "Ngô Nam Kiên - ĐIỀU ĐỘ",
+    "HOANNV1": "Nguyễn Văn Hoàn - ĐIỀU ĐỘ",
+    "NAMLD": "Lê Doãn Nam - ĐIỀU ĐỘ",
+    "HUYND": "Nguyễn Đức Huy - ĐIỀU ĐỘ",
+    "TAMNH1": "Nguyễn Hữu Tâm - ĐIỀU ĐỘ",
+    "PHUONGL": "Lê Phương - ĐIỀU ĐỘ",
+    "KHANDN": "Đặng Ngọc Khánh - ĐIỀU ĐỘ",
+    "VINHQ2": "Ngô Quang Vinh - ĐIỀU ĐỘ",
+    "HAITQ1": "Trần Quang Hải - ĐIỀU ĐỘ",
+    "DUNGTT2": "Trần Trung Dũng - ĐIỀU ĐỘ",
+    "LAILH": "Lê Hồng Lai - ĐIỀU ĐỘ",
+    "HUYNQ2": "Nguyễn Quang Huy - ĐIỀU ĐỘ",
+    "NGUYENVC": "Vũ Cao Nguyên - ĐIỀU ĐỘ",
+    "DUANPV": "Phạm Văn Duẩn - ĐIỀU ĐỘ",
+    "TANNM": "Nguyễn Minh Tân - ĐIỀU ĐỘ",
+    "NGHIATV2": "Trần Văn Nghĩa - ĐIỀU ĐỘ",
+    "NGHIANV3": "Nguyễn Văn Nghĩa - ĐIỀU ĐỘ",
+    "QUYVT": "Vũ Trọng Quý - ĐIỀU ĐỘ",
+    "TAIHN": "Hoàng Ngọc Tài - ICDNT",
+    "HALT": "Lê Thị Hà - ICDNT",
+    "NGOCNT": "Ngô Thị Ngọc - ICDNT",
+    "THAOTT1": "Trần Thị Thảo - ICDNT",
+    "THANHPTP": "Phạm Thị Phương Thanh - ICDNT",
+    "BICHLTN": "Lê Thị Ngọc Bích - ICDNT",
+    "CHITTK": "Trần Thị Kim Chi - ICDNT",
+    "QUYNHMT": "Mai Thị Quỳnh - ICDNT",
+    "HUEVT2": "Vũ Thị Huệ - ICDNT",
+    "YENDT": "Đào Thị Yến - ICDNT",
+    "DUCNV2": "Nguyễn Viết Đức - ICDNT",
+    "LAMDV": "Đinh Văn Lâm - ICDNT",
+    "DUYPV1": "Phạm Văn Duy - ICDNT",
+    "HUNGDM2": "Đoàn Mạnh Hùng - ICDNT",
+    "DIENVM": "Vũ Mạnh Điển - ICDNT",
+    "HUNGNDH": "Nguyễn Đặng Hồng Hưng - ICDNT",
+    "THITM": "Trần Minh Thi - ICDNT",
+    "TRIEULH": "Lưu Hải Triều - ICDNT",
+    "SONLH2": "Lê Hải Sơn - ICDNT",
+    "THUYNTK": "Nguyễn Thị Kim Thùy - ICDNT",
+    "HUNGBQ1": "Bùi Quang Hùng - ICDNT",
+    "TUANNM7": "Ngô Minh Tuấn - ICDNT",
+    "LONGLN1": "Lê Ngọc Long - ICDNT",
+    "HAUTV": "Trần Văn Hậu - ICDNT",
+    "HIEUHK": "Hoàng Kim Hiếu - ICDNT",
+    "HUNGDT": "Đỗ Trọng Hùng - ICDNT",
+    "DUCTM1": "Tạ Minh Đức - ICDNT",
+    "GAMNN": "Nguyễn Như Gấm - ICDNT",
+    "SYDV1": "Đỗ Văn Sỹ - ICDNT",
+    "TOANNV10": "Ninh Văn Toàn - ICDNT",
+    "TUANDC": "Đinh Cường Tuấn - ICDNT",
+    "DIEPPT": "Phạm Thị Điệp - ICDNT",
+    "THUANTT1": "Trần Thị Thuận - ICDNT",
+    "MINHNT3": "Nguyễn Thị Minh - ICDNT",
+    "DULN": "Lê Ngọc Dư - ICDNT",
+    "THINHVD": "Vũ Đức Thịnh - CGXD",
+    "TULM": "Lê Minh Tú - CGXD",
+    "VIETVQ": "Vũ Quốc Việt - CGXD",
+    "KHUONGTC": "Trần Công Khương - CGXD",
+    "VINHVB": "Vũ Bá Vinh - CGXD",
+    "DONGDV1": "Đỗ Văn Đông - CGXD",
+    "MICHNV": "Nguyễn Văn Mích - CGXD",
+    "MANHLT": "Lê Trọng Mạnh - CGXD",
+    "NGOCNT4": "Nguyễn Tiến Ngọc - CGXD",
+    "NGOCPV": "Phạm Văn Ngọc - CGXD",
+    "DUONGTN": "Tạ Ngọc Dương - CGXD",
+    "HIEUNN": "Ngô Ngọc Hiếu - CGXD",
+    "NAMDV7": "Đặng Văn Nam - CGXD",
+    "THIENLT": "Lê Tất Thiện - CGXD",
+    "NAMNN1": "Nguyễn Ngọc Nam - CGXD",
+    "LONGPQ": "Phạm Quang Long - CGXD",
+    "CHIENLV": "Lê Văn Chiến - CGXD",
+    "PHUONGHV": "Hoa Văn Phương - CGXD",
+    "SONLD": "Lê Duy Sơn - CGXD",
+    "HUNGDV2": "Đặng Văn Hùng - CGXD",
+    "TRUNGLV2": "Lê Văn Trung - CGXD",
+    "CUONGNN2": "Nguyễn Ngọc Cường - CGXD",
+    "CONGDV1": "Đặng Văn Công - CGXD",
+    "THUONGDM": "Dương Minh Thưởng - CGXD",
+    "TUNGDQ": "Đinh Quang Tùng - CGXD",
+    "TRIMV": "Mai Văn Trí - CGXD",
+    "TAINX": "Ngô Xuân Tài - CGXD",
+    "KHUONGTV": "Trần Văn Khương - CGXD",
+    "THOLP": "Lê Phú Thọ - CGXD",
+    "DATNV1": "Nguyễn Văn Đạt - CGXD",
+    "DUNGNQ1": "Nguyễn Quang Dũng - CGXD",
+    "QUYETND": "Nguyễn Đình Quyết - CGXD",
+    "LONGPD": "Phí Đức Long - CGXD",
+    "TUNH": "Nguyễn Huy Tứ - CGXD",
+    "BIENGV": "Giáp Văn Biên - CGXD",
+    "BANGNT": "Nguyễn Thế Bằng - CGXD",
+    "SONVV": "Vũ Văn Sơn - CGXD",
+    "SONPD": "Phạm Duy Sơn - CGXD",
+    "QUANGDA": "Đặng Anh Quang - CGXD",
+    "THUONGNH": "Nguyễn Hữu Thương - CGXD",
+    "TAMNT6": "Nguyễn Tử Tám - CGXD",
+    "VINHLX": "Lê Xuân Vinh - CGXD",
+    "ANTV": "Thái Văn An - CGXD",
+    "KHANHLN1": "Lê Ngọc Khánh - CGXD",
+    "KIENNX2": "Nguyễn Xuân Kiên - CGXD",
+    "LAMND": "Nguyễn Duy Lam - CGXD",
+    "THANHNH3": "Nguyễn Hữu Thành - CGXD",
+    "THANGHV1": "Hoàng Văn Thắng - CGXD",
+    "PHONGNN": "Nguyễn Như Phong - CGXD",
+    "HIEUDT1": "Đồng Trung Hiếu - CGXD",
+    "VINHPN1": "Phạm Nho Vinh - CGXD",
+    "SINHNT1": "Nguyễn Trường Sinh - CGXD",
+    "THINHNT1": "Nguyễn Tiến Thịnh - CGXD",
+    "QUANGTM1": "Trần Minh Quang - CGXD",
+    "PHONGTQ1": "Tôn Quang Phong - CGXD",
+    "TUANNX2": "Ngô Xuân Tuấn - CGXD",
+    "NANGVV1": "Vũ Văn Năng - CGXD",
+    "TRUNGLV1": "Lê Văn Trung - CGXD",
+    "CHUNGNQ": "Nguyễn Quang Chung - CGXD",
+    "HIEUPV1": "Phạm Văn Hiếu - CGXD",
+    "MANHTH": "Trần Hùng Mạnh - CGXD",
+    "DINHPV1": "Phạm Văn Đính - CGXD",
+    "KHUONGMC": "Mai Chí Khương - CGXD",
+    "THOAINN": "Nguyễn Ngọc Thoại - CGXD",
+    "PHUOCDH": "Dương Hữu Phước - CGXD",
+    "TUANNV5": "Nguyễn Văn Tuân - CGXD",
+    "HOINV": "Nguyễn Văn Hợi - CGXD",
+    "THANGTV1": "Trần Văn Thắng - CGXD",
+    "NGUYENHV": "Hoàng Văn Nguyên - CGXD",
+    "PHUONGVD": "Vũ Duy Phương - CGXD",
+    "KHOADM": "Đỗ Minh Khoa - CGXD",
+    "TRINHHM": "Hoàng Minh Trình - TVĐN",
+    "CHILN": "Lê Ngọc Chi - TVĐN",
+    "PHUONGND": "Nguyễn Đăng Phương - TVĐN",
+    "ANHNT3": "Nguyễn Tuấn Anh - TVĐN",
+    "THIANT": "Nguyễn Thị Thía - TVĐN",
+    "THANHHT2": "Hà Thị Thanh - TVĐN",
+    "NGOCPTP": "Phan Thị Phương Ngọc - TVĐN",
+    "LINHCTT": "Cao Thị Thùy Linh - TVĐN",
+    "HONGLT": "Lưu Thị Hồng - TVĐN",
+    "OANHTTH": "Trần Thị Hồng Oanh - TVĐN",
+    "NGOCVB1": "Văn Bích Ngọc - TVĐN",
+    "BAOTQ": "Trịnh Quốc Bảo - TVĐN",
+    "HOANPT": "Phạm Thị Hoàn - TVĐN",
+    "NGHIAPD": "Phạm Duy Nghĩa - TVĐN",
+    "ANHNTP": "Nguyễn Thị Phương Anh - ESL",
+    "OANHLTK1": "Lê Thị Kim Oanh - ESL",
+    "HATT3": "Trần Thị Hà - ESL",
+    "DUCTT4": "Trần Thị Đức - ESL",
+    "BINHTT7": "Trịnh Thị Bính - ESL",
+    "DIENTNTN": "Nguyễn Thị Ngọc Diện - ESL",
+    "HOANPT1": "Phạm Thị Hoàn - ESL",
+    "ANHNH4": "Nguyễn Huyền Anh - ESL",
+    "HANGNTT5": "Nguyễn Thị Thanh Hằng - ESL",
+    "BAOTQ1": "Trịnh Quốc Bảo - ESL",
+    "TAMHTT": "Huỳnh Thị Thanh Tâm - ESL",
+    "TRANGVTH": "Vũ Thị Huyền Trang - ESL",
+    "VANDTT3": "Đặng Thị Thúy Vân - ESL",
+    "NGANT7": "Nguyễn Thị Nga - ESL",
+    "UYENDTT": "Đinh Thị Thu Uyên - ESL",
+    "LOINVH": "Nguyễn Vũ Hữu Lợi - ESL",
+    "OANHHTK2": "Hoàng Thị Kiều Oanh - ESL",
+    "HANNP": "Nguyễn Phúc Hân - ESL",
+    "TRUCPTH": "Phạm Thị Hoài Trúc - ESL",
+    "DONGTV2": "Trần Văn Đông - ESL",
+    "TRUNGNQ": "Nguyễn Quốc Trung - ESL",
+    "HIEUNT1": "Nguyễn Trung Hiếu - ESL",
+    "NGOCVB": "Văn Bích Ngọc - ESL",
+    "MINHCT5": "Cao Thị Minh - ESL",
+    "NHUNGHT": "Hoàng Thị Nhung - ESL",
+    "TUYENCD": "Cao Đức Tuyên - CGXD"
+},
+  "questions": [
+      {
+  "text": "Những yếu tố nào dưới đây gây nguy cơ mắc bệnh nghề nghiệp?",
+  "options": [
+    "Hạ tầng xuống cấp, mật độ phương tiện dày đặc.",
+    "Khói, bụi, tiếng ồn, điện từ trường, hơi hóa chất độc hại.",
+    "Thời tiết, ánh sáng bất lợi; không gian hạn chế, khuất tầm nhìn.",
+    "Hàng hóa sập đổ; vật liệu văng, bắn; hóa chất cháy nổ."
+  ]
+},
+     {
+  "text": "Người bị tai nạn lao động suy giảm bao nhiêu % sức lao động trở lên thì được hưởng chế độ trợ cấp BHXH?",
+  "options": [
+    "5%.",
+    "35%.",
+    "15%.",
+    "25%."
+  ]
+},
+{
+  "text": "Theo quy định của TCT TCSG, trường hợp nào phải sử dụng mũ bảo hộ lao động khi làm việc?",
+  "options": [
+    "Nhân viên chấm bay giao nhận.",
+    "Công nhân đánh tín hiệu trên cầu tàu.",
+    "Công nhân làm việc tại công trường xây dựng.",
+    "Tất cả đều đúng."
+  ]
+},
+{
+  "text": "Yếu tố nguy hiểm trong quá trình lao động là gì?",
+  "options": [
+    "Là yếu tố gây bệnh tật, làm suy giảm sức khỏe con người.",
+    "Là yếu tố gây ra TNLĐ, làm tổn thương hoặc tử vong cho con người hoặc thiệt hại lớn cho máy móc, thiết bị, hàng hóa.",
+    "Là yếu tố làm giảm năng suất lao động.",
+    "Tất cả các yếu tố trên."
+  ]
+},
+{
+  "text": "Khi phát hiện nguy cơ mất an toàn, ai là người có trách nhiệm báo cho lực lượng chức năng của Cảng?",
+  "options": [
+    "Chỉ huy đơn vị.",
+    "An toàn viên.",
+    "Bất cứ ai phát hiện.",
+    "Trực ban sản xuất."
+  ]
+},
+{
+  "text": "Huấn luyện an toàn, vệ sinh lao động cho người lao động mới tuyển dụng được tiến hành khi nào?",
+  "options": [
+    "Kết hợp trong quá trình học việc.",
+    "Trước khi giao việc.",
+    "Sau khi đã thành thạo công việc."
+  ]
+},
+{
+  "text": "Bình chữa cháy có ghi ký hiệu chữ cái “C” được dùng để chữa đám cháy loại gì?",
+  "options": [
+    "Đám cháy vật liệu điện.",
+    "Đám cháy chất rắn.",
+    "Đám cháy chất khí.",
+    "Đám cháy chất lỏng."
+  ]
+},
+{
+  "text": "Các dụng cụ chữa cháy phải được lắp đặt hoặc để ở nơi như thế nào?",
+  "options": [
+    "Dễ thấy, dễ lấy.",
+    "Tránh xa nơi có axit và kiềm ăn mòn.",
+    "Không có vật cản, rào chắn.",
+    "Cả a,b,c."
+  ]
+},
+{
+  "text": "Luật Đường bộ (số: 35/2024/QH15) có hiệu lực thi hành từ ngày nào?",
+  "options": [
+    "01/01/2025.",
+    "01/07/2025.",
+    "01/07/2024.",
+    "01/01/2026."
+  ]
+},
+{
+  "text": "Luật Đường bộ (số: 35/2024/QH15) có hiệu lực thi hành từ ngày nào?",
+  "options": [
+    "01/01/2025.",
+    "01/07/2025.",
+    "01/07/2024.",
+    "01/01/2026."
+  ]
+},
+{
+  "text": "Tham gia giao thông trong cảng mà trong máu có nồng độ cồn ở mức bao nhiêu thì bị nghiêm cấm?",
+  "options": [
+    "Vượt quá 100 miligam/100 mililít máu.",
+    "Vượt quá 80 miligam/100 mililít máu;",
+    "Không được có nồng độ cồn trong máu.",
+    "Vượt quá 60 miligam/100 mililít máu;"
+  ]
+},
+{
+  "text": "Khi tham gia giao thông, đèn tín hiệu vàng nhấp nháy quy định gì?",
+  "options": [
+    "Giữ nguyên tốc độ, di chuyển bình thường.",
+    "Là được đi nhưng phải giảm tốc độ, chú ý quan sát các hướng khác.",
+    "Phải dừng lại trước vạch dừng."
+  ]
+},
+{
+  "text": "Khách hàng có được trèo lên xe nâng không?",
+  "options": [
+    "Không",
+    "Có",
+    "Tùy theo nhu cầu giữa hai bên"
+  ]
+},
+{
+  "text": "Khi các phương tiện tham gia giao thông trong cảng, những yếu tố nào sau đây có thể dẫn đến tai nạn?",
+  "options": [
+    "Do các phương tiện lưu thông quá tốc độ, thiếu quan sát, vượt ẩu hoặc người đi bộ sai làn đường quy định tại các cổng cảng, trên các tuyến đường giao thông, trong các khu, bãi hàng, depot và trên cầu, bến.",
+    "Người điều khiển phương tiện dừng, đậu sai quy định (tại các ngã 3, ngã 4 giao nhau, trên đường ưu tiên di chuyển của các thiết bị nâng, đầu các Line, Block Container.",
+    "Người điều khiển phương tiện không chấp hành các biển báo chỉ dẫn, sự điều khiển của các lực lượng trật tự, tín hiệu của công nhân đánh tín hiệu và tín hiệu còi các phương tiện."
+  ]
+},
+{
+  "text": "Nghị định 168/2024/NĐ-CP xử phạt người điều khiển ô tô chạy quá tốc độ cho phép trên 35km/h bao nhiêu?",
+  "options": [
+    "8.000.000 – 10.000.000đ",
+    "10.000.000 – 12.000.000đ",
+    "12.000.000 – 14.000.000đ",
+    "14.000.000 – 16.000.000đ"
+  ]
+},
+{
+  "text": "Nghị định 168/2024/NĐ-CP xử phạt người điều khiển xe gắn máy không đội mũ bảo hiểm hoặc đội mũ nhưng cài quai không đúng quy cách bao nhiêu?",
+  "options": [
+    "200.000 – 400.000đ",
+    "300.000 – 500.000đ",
+    "500.000 – 700.000đ",
+    "400.000 – 600.000đ"
+  ]
+},
+{
+  "text": "Nghị định 168/2024/NĐ-CP xử phạt người điều khiển ô tô mà trong hơi thở có nồng độ cồn dưới 0,25miligam/1lít khí thở bao nhiêu?",
+  "options": [
+    "3.000.000 – 5.000.000đ",
+    "6.000.000 – 8.000.000đ",
+    "4.000.000 – 6.000.000đ",
+    "5.000.000 – 7.000.000đ"
+  ]
+},
+{
+  "text": "Nghị định 168/2024/NĐ-CP xử phạt người điều khiển ô tô khi ra, vào vị trí dừng xe, đỗ xe không có tín hiệu báo cho người điều khiển phương tiện khác biết bao nhiêu?",
+  "options": [
+    "400.000đ – 600.000đ",
+    "600.000đ – 800.000đ",
+    "800.000đ – 1.200.000đ",
+    "200.000đ – 400.000đ"
+  ]
+},
+{
+  "text": "Nghị định 168/2024/NĐ-CP xử phạt người điều khiển ô tô mà trong máu có nồng độ cồn dưới 50miligam/100mililit máu bao nhiêu?",
+  "options": [
+    "6.000.000 – 8.000.000đ",
+    "3.000.000 – 5.000.000đ",
+    "5.000.000 – 7.000.000đ",
+    "4.000.000 – 6.000.000đ"
+  ]
+},
+{
+  "text": "Bảo vệ môi trường, giữ gìn Cảng xanh, sạch đẹp là trách nhiệm của ai?",
+  "options": [
+    "Trung tâm y tế Cảng.",
+    "Cán bộ, công nhân viên, chiến sĩ.",
+    "Tất cả mọi người vào cảng làm việc",
+    "Những người thu gom rác tại cảng."
+  ]
+},
+{
+  "text": "“Tăng cường công tác kiểm tra việc sử dụng, BQBD, niêm cất, sửa chữa, nhằm ngăn ngừa VKTBKT hư hỏng và xuống cấp” nằm trong mục tiêu nào của CVĐ50:",
+  "options": [
+    "Mục tiêu An toàn",
+    "Mục tiêu quản lý",
+    "Mục tiêu Khai thác",
+    "Mục tiêu thực hành tiết kiệm"
+  ]
+},
+{
+  "text": "“Thực hiện các quy định về bảo quản, bảo dưỡng và sửa chữa định kỳ…” nằm trong mục tiêu nào của CVĐ 50?",
+  "options": [
+    "Mục tiêu Quản lý VKTBKT",
+    "Mục tiêu Tiết kiệm",
+    "Mục tiêu Khai thác VKTBKT",
+    "Mục tiêu An toàn"
+  ]
+},
+{
+  "text": "Công ty Tân cảng Sài Gòn chuyển thành Công ty Trách nhiệm hữu hạn một thành viên Tổng Công ty Tân cảng Sài Gòn hoạt động theo hình thức Công ty mẹ công ty con từ năm nào?",
+  "options": [
+    "2011",
+    "2010",
+    "2008",
+    "2009"
+  ]
+},
+{
+  "text": "Ngày thành lập Quân cảng Sài Gòn là ngày nào?",
+  "options": [
+    "13/5/1989",
+    "15/3/1989",
+    "13/5/1990",
+    "15/3/1990"
+  ]
+},
+{
+  "text": "Giá trị cốt lõi của Tân cảng Sài Gòn?",
+  "options": [
+    "Đoàn kết, năng động, sáng tạo, hoàn thành xuất sắc nhiệm quốc phòng, kinh tế",
+    "Đoàn kết, kỷ cương, chuyên nghiệp, nghĩa tình, quyết thắng",
+    "Đoàn kết, đồng thuận, kỷ cương, chuyên nghiệp, nghĩa tình."
+  ]
+},
+{
+  "text": "Quy định hình thức bên ngoài đối với người lao động?",
+  "options": [
+    "Không sử dụng màu sơn móng tay đậm, sơn trang trí nhiều màu, phản cảm.",
+    "Không xăm hình ở các vị trí dễ nhận thấy và gây phản cảm.",
+    "Không trang điểm trong giờ làm việc tại khu vực giao dịch với khách hàng.",
+    "Cả a,b,c"
+  ]
+},
+{
+  "text": "Quy định mang mặc quân phục, đồng phục?",
+  "options": [
+    "Gọn gàng, thống nhất, đúng quy định.",
+    "Chính quy, thống nhất, đúng quy định.",
+    "Sạch sẽ, thống nhất, đúng quy định."
+  ]
+},
+{
+  "text": "Việt Nam có khoảng bao nhiêu đảo lớn, nhỏ?",
+  "options": [
+    "2.000.",
+    "4.000.",
+    "6.000."
+  ]
+},
+{
+  "text": "Các Bộ Luật do ai ký ban hành?",
+  "options": [
+    "Chủ tịch nước",
+    "Chủ tịch Quốc hội",
+    "Thủ tướng Chính phủ",
+    "Bộ trưởng Bộ chủ quản"
+  ]
+},
+{
+  "text": "Khi làm việc ở trên cao, nơi có khả năng xảy ra nguy hiểm ngã cao, cần phải:",
+  "options": [
+    "Đội mũ BHLĐ có cài quai",
+    "Đi giày BHLĐ chống trơn trượt",
+    "Đeo dây an toàn vào những điểm cố định chắc chắn",
+    "Cả a,b,c"
+  ]
+}
+
+  ]
+}
