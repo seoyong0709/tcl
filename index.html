@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Thi Trắc Nghiệm Mobile</title>
+    <style>
+        :root { --primary-color: #2563eb; --bg-color: #f8fafc; }
+        body { font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 0; background: var(--bg-color); color: #333; line-height: 1.5; }
+
+        /* Màn hình đăng nhập */
+        #login-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            /* Chèn ảnh và tạo lớp phủ mờ phía trên để dễ đọc chữ */
+            background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.8)), 
+                        url('https://cdn.saigonnewport.com.vn/uploads/images/2021/11/09/dji-0002-hdr-min-6189e920eaa9e.png');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed; /* Giữ ảnh cố định khi xoay màn hình */
+            
+            z-index: 2000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        /* Làm cho hộp đăng nhập nổi bật hơn trên nền ảnh */
+        .login-box {
+            width: 100%;
+            max-width: 380px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.9); /* Nền trắng trong suốt */
+            padding: 30px 20px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+            backdrop-filter: blur(5px); /* Hiệu ứng kính mờ (nếu trình duyệt hỗ trợ) */
+        }
+        #quiz-container-wrapper { display: none; }
+        .banner-img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        /* Header & Timer */
+        .header { position: sticky; top: 0; background: white; padding: 15px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); z-index: 1000; }
+        .timer-box { font-size: 16px; font-weight: bold; color: #dc2626; background: #fee2e2; padding: 4px 10px; border-radius: 6px; border: 1px solid #fecaca; }
+        .progress-bar { height: 6px; background: #e2e8f0; border-radius: 3px; margin-top: 10px; overflow: hidden; }
+        #progress-fill { height: 100%; width: 0%; background: var(--primary-color); transition: width 0.3s; }
+
+        .container { padding: 15px; padding-bottom: 100px; }
+        .question-card { background: white; padding: 15px; border-radius: 12px; margin-bottom: 15px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .question-text { font-weight: 600; margin-bottom: 12px; display: block; }
+        .options { display: flex; flex-direction: column; gap: 10px; }
+        .option-item { display: flex; align-items: center; padding: 12px; border: 1.5px solid #e2e8f0; border-radius: 8px; cursor: pointer; transition: all 0.2s; }
+        .option-item input { margin-right: 12px; width: 18px; height: 18px; }
+        .option-item.selected { border-color: var(--primary-color); background: #eff6ff; }
+        .footer { position: fixed; bottom: 0; width: 100%; background: white; padding: 15px; box-sizing: border-box; box-shadow: 0 -2px 10px rgba(0,0,0,0.1); }
+        .btn-submit { background: var(--primary-color); color: white; border: none; width: 100%; padding: 15px; border-radius: 10px; font-size: 18px; font-weight: bold; }
+        .btn-submit:disabled { background: #94a3b8; }
+    </style>
+</head>
+<body>
+
+<div id="login-screen">
+    <div class="login-box">
+        <h2 style="color: #003399; margin-bottom: 20px; font-size: 1.2rem; text-transform: uppercase;">
+            Tìm hiểu 20 năm ngày truyền thống<br>
+            <span style="font-size: 0.9rem; color: #555;">Công ty CP Đại lý GNVT Xếp dỡ Tân Cảng</span>
+        </h2>
+        <input type="text" id="login-id" placeholder="Nhập mã số nhân viên..." 
+               style="width:100%; padding:15px; border-radius:8px; border:2px solid #2563eb; box-sizing:border-box; font-size: 16px;">
+        <button class="btn-submit" onclick="handleLogin()" style="margin-top:15px; cursor: pointer;">Vào làm bài</button>
+        <p id="login-error" style="color: red; display: none; margin-top: 10px; font-weight: bold;">Tài khoản không tồn tại!</p>
+    </div>
+</div>
+
+<div id="quiz-container-wrapper">
+    <div class="header">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px;">
+            <div id="user-display-name" style="font-size: 16px; font-weight: bold;">---</div>
+            <div class="timer-box" id="timer">Thời gian: 15:00</div>
+        </div>
+        <div style="display: flex; justify-content: space-between; align-items: center;">
+            <span style="font-size: 12px; color: #64748b;">Trạng thái:</span>
+            <span id="score-text" style="font-size: 13px; color: var(--primary-color);">Đã làm: 0/30</span>
+        </div>
+        <div class="progress-bar"><div id="progress-fill"></div></div>
+    </div>
+
+    <div class="container" id="quiz-content"></div>
+
+    <div class="footer">
+        <button id="submit-btn" class="btn-submit" onclick="submitToGoogle()" disabled>Nộp bài hoàn tất</button>
+    </div>
+</div>
+
+<script>
+let startTime;
+let timerInterval;
+let quizData = {}; 
+let USER_DATABASE = {}; // Đã khai báo
+let currentUserId = "", currentUserFullName = "";
+let TOTAL_QUESTIONS = 0; // Khởi tạo ban đầu
+
+// Hàm trộn đáp án (Thiếu cái này sẽ lỗi)
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+// Hàm load data từ server
+async function initQuiz() {
+    try {
+        const response = await fetch('data.json');
+        quizData = await response.json();
+        
+        // Cập nhật số lượng câu hỏi từ JSON
+        TOTAL_QUESTIONS = quizData.questions.length;
+        
+        // Gán dữ liệu tài khoản
+        Object.assign(USER_DATABASE, quizData.accounts);
+        
+        renderQuestions(quizData.questions);
+    } catch (err) {
+        console.error("Lỗi tải data.json (Kiểm tra lại file):", err);
+        alert("Không thể tải dữ liệu đề thi!");
+    }
+}
+
+function renderQuestions(questions) {
+    const quizContent = document.getElementById('quiz-content');
+    questions.forEach((q, index) => {
+        const div = document.createElement('div');
+        div.className = 'question-card';
+        
+        let options = [...q.options];
+        shuffleArray(options); // Bây giờ đã chạy được
+
+        div.innerHTML = `
+            <span class="question-text">Câu ${index + 1}: ${q.text}</span>
+            <div class="options">
+                ${options.map(opt => `
+                    <label class="option-item" id="label-q${index + 1}-${opt}">
+                        <input type="radio" name="q${index + 1}" value="${opt}" onchange="selectOption(${index + 1}, '${opt}')">
+                        <span>${opt}</span>
+                    </label>
+                `).join('')}
+            </div>
+        `;
+        quizContent.appendChild(div);
+    });
+}
+
+// Gọi khởi tạo
+initQuiz();
+
+function selectOption(qNum, opt) {
+    document.querySelectorAll(`[id^="label-q${qNum}-"]`).forEach(el => el.classList.remove('selected'));
+    document.getElementById(`label-q${qNum}-${opt}`).classList.add('selected');
+    checkCompletion();
+}
+
+function checkCompletion() {
+    const answered = document.querySelectorAll('input[type="radio"]:checked').length;
+    document.getElementById('progress-fill').style.width = (answered / TOTAL_QUESTIONS) * 100 + '%';
+    document.getElementById('score-text').innerText = `Đã làm: ${answered}/${TOTAL_QUESTIONS}`;
+    document.getElementById('submit-btn').disabled = (answered < TOTAL_QUESTIONS);
+}
+
+function startTimer() {
+    let timeLeft = 15 * 60; // 15 phút
+    timerInterval = setInterval(() => {
+        timeLeft--;
+        let m = Math.floor(timeLeft / 60), s = timeLeft % 60;
+        document.getElementById('timer').innerText = `Thời gian: ${m < 10 ? '0'+m : m}:${s < 10 ? '0'+s : s}`;
+        if (timeLeft <= 0) { clearInterval(timerInterval); alert("Hết giờ!"); submitToGoogle(); }
+    }, 1000);
+}
+
+function handleLogin() {
+    const inputId = document.getElementById('login-id').value.trim().toUpperCase();
+    if (USER_DATABASE[inputId]) {
+        currentUserId = inputId;
+        currentUserFullName = USER_DATABASE[inputId];
+        startTime = Date.now();
+        document.getElementById('login-screen').style.display = 'none';
+        document.getElementById('quiz-container-wrapper').style.display = 'block';
+        document.getElementById('user-display-name').innerText = currentUserFullName;
+        startTimer();
+    } else {
+        document.getElementById('login-error').style.display = 'block';
+    }
+}
+
+function submitToGoogle1() {
+    clearInterval(timerInterval);
+    let answers = "";
+    for (let i = 1; i <= TOTAL_QUESTIONS; i++) {
+        const sel = document.querySelector(`input[name="q${i}"]:checked`);
+        answers += (sel ? `${i}${sel.value} ` : `${i}?, `);
+    }
+    const timeSpent = Math.floor((Date.now() - startTime) / 1000);
+    const formID = "1FAIpQLSepIT7UGbxuoAqqL1WVpnnE0hhLICm5GfTdeurLnPA4OKomag";
+    const url = `https://docs.google.com/forms/d/e/${formID}/formResponse?entry.1316748272=${encodeURIComponent(`[${currentUserId}] ${currentUserFullName}`)}&entry.1619387352=${encodeURIComponent(answers)}&entry.500646869=${encodeURIComponent(timeSpent)}&submit=Submit`;
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = url;
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+    alert("Đã nộp bài!");
+    setTimeout(() => location.reload(), 1000);
+}
+function submitToGoogle() {
+    clearInterval(timerInterval);
+    
+    // Sử dụng mảng để chứa các câu trả lời, sau đó nối lại bằng dấu phẩy
+    let answersArray = []; 
+    
+    for (let i = 1; i <= TOTAL_QUESTIONS; i++) {
+        const sel = document.querySelector(`input[name="q${i}"]:checked`);
+        
+        let currentAnswer = "";
+        if (sel) {
+            // Lấy giá trị được chọn
+            let value = sel.value; 
+            
+            // --- BẮT ĐẦU ĐOẠN GIỚI HẠN KÝ TỰ ---
+            // Chuyển thành chuỗi (để chắc chắn) và cắt lấy 4 ký tự đầu tiên
+            let truncatedValue = String(value).substring(0, 4);
+            // --- KẾT THÚC ĐOẠN GIỚI HẠN KÝ TỰ ---
+            
+            currentAnswer = `${i}:${truncatedValue}`; // Định dạng Câu:CâuTrảLời
+        } else {
+            currentAnswer = `${i}:?`; // Trường hợp không khoanh
+        }
+        
+        answersArray.push(currentAnswer);
+    }
+    
+    // Nối các câu trả lời lại thành một chuỗi dài, phân cách bằng dấu phẩy và khoảng trắng
+    // Ví dụ kết quả: "1:A, 2:ABCD, 3:1234, 4:?"
+    const finalAnswersString = answersArray.join(", ");
+
+    const timeSpent = Math.floor((Date.now() - startTime) / 1000);
+    const formID = "1FAIpQLScuwU77cCjfYkPnFiueZ1auhfLEzJUsI9QdMv0PnrgS8jJGsA";
+    
+    // Sử dụng finalAnswersString đã được xử lý
+    const url = `https://docs.google.com/forms/d/e/${formID}/formResponse?entry.1986564645=${encodeURIComponent(`[${currentUserId}] ${currentUserFullName}`)}&entry.584269068=${encodeURIComponent(finalAnswersString)}&entry.246954035=${encodeURIComponent(timeSpent)}&submit=Submit`;
+    
+    // Tạo iframe để gửi ngầm
+    const iframe = document.createElement('iframe');
+    iframe.src = url;
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+    
+    alert("Đã nộp bài!");
+    
+    // Tải lại trang sau 1 giây
+    setTimeout(() => location.reload(), 1000);
+}
+
+</script>
+
+</body>
+</html>
