@@ -1,0 +1,585 @@
+{
+  "accounts": {
+    "HOANGTTK": "Trần Thị Kim Hoàng - TCKT",
+    "HADTT1": "Đào Thị Thu Hà - TCKT",
+    "VANCT": "Cao Thị Vân - TCKT",
+    "HIENVTT": "Vũ Thị Thu Hiền - TCKT",
+    "TANNX1": "Nguyễn Xuân Tân - TCKT",
+    "THUANTT": "Trần Thị Thuận - TCKT",
+    "HANGHTT2": "Hoàng Thị Thu Hằng - TCKT",
+    "HUENT7": "Nguyễn Thị Huệ - TCKT",
+    "HIEULN": "Lê Nam Hiếu - TCKT",
+    "OANHPTH1": "Phạm Thị Hải Oanh - HCHC",
+    "THONGNV": "Nguyễn Văn Thông - HCHC",
+    "THUYNV1": "Nguyễn Văn Thủy - HCHC",
+    "THANHPH1": "Phạm Huy Thanh - HCHC",
+    "LANVTM": "Vũ Thị Mai Lan - HCHC",
+    "HANGDT2": "Dương Thị Hằng - HCHC",
+    "LUANHD": "Hồ Doãn Luân - HCHC",
+    "MYNX": "Nguyễn Xuân Mỹ - HCHC",
+    "HUELT2": "Lê Thị Huế - HCHC",
+    "NHUONGLT": "Lương Thị Nhường - HCHC",
+    "HUNGNT15": "Nguyễn Thanh Hùng - HCHC",
+    "HAPV": "Phạm Việt Hà - HCHC",
+    "VANNT5": "Nguyễn Thị Vân - HCHC",
+    "TOANVV": "Võ Văn Toàn - HCHC",
+    "DATNT14": "Nguyễn Tấn Đạt - HCHC",
+    "THUNT1": "Nguyễn Thị Thu - HCHC",
+    "HANN": "Nguyễn Ngọc Hà - HCHC",
+    "TOANNN": "Nguyễn Ngọc Toàn - HCHC",
+    "HANTT": "Nguyễn Thị Thu Hà - HCHC",
+    "BACHDV": "Đặng Văn Bách - HCHC",
+    "SONTD1": "Trịnh Đức Sơn - HCHC",
+    "HANHDT": "Đào Thị Hạnh - HCHC",
+    "PHUONGDTL": "Đỗ Thị Lan Phương - TCLĐ-TL",
+    "NGALDQ": "Lê Đặng Quỳnh Nga - TCLĐ-TL",
+    "YENNT4": "Nguyễn Thị Yến - TCLĐ-TL",
+    "THUYTP": "Trần Phương Thủy - TCLĐ-TL",
+    "YENNH": "Nguyễn Hải Yến - KHKD",
+    "TUNGBV": "Bùi Việt Tùng - KHKD",
+    "ANHNN3": "Nguyễn Nguyệt Anh - KHKD",
+    "NHUNGPT": "Phạm Thị Nhung - KHKD",
+    "VANNTK1": "Nguyễn Thị Khánh Vân - KHKD",
+    "HANHDT1": "Đới Thị Hạnh - KHKD",
+    "MANUT": "Uông Thị Mận - KHKD",
+    "OANHTTT": "Nguyễn Thị Tố Oanh - KHKD",
+    "NGANPTK": "Phạm Thị Kim Ngân - KHKD",
+    "THUVT1": "Vũ Thị Thu - KHKD",
+    "MYNTH": "Nguyễn Thị Hà My - KHKD",
+    "HAPT2": "Phạm Thị Hà - KHKD",
+    "TRANGLTT": "Lương Thị Thùy Trang - KHKD",
+    "THUANDM": "Dương Minh Thuận - KHKD",
+    "THAONTP2": "Nguyễn Thị Phương Thảo - KHKD",
+    "THUNTM": "Nguyễn Thị Minh Thu - KHKD",
+    "PHONGNT2": "Nguyễn Tiên Phong - KHKD",
+    "VUNCH": "Nguyễn Công Hoài Vũ - KHKD",
+    "HUNGNQ1": "Ngô Quang Hưng - KHKD",
+    "MANHPD": "Phạm Đức Mạnh - KHKD",
+    "DUCNV1": "Nguyễn Viết Đức. - KHKD",
+    "DUONGNH2": "Nguyễn Huy Dương - KHKD",
+    "NAMNH3": "Ngô Hải Nam - KHKD",
+    "NGOCTK": "Trịnh Khánh Ngọc - KHKD",
+    "DUONGNHT": "Hoàng Thị Thùy Dương - KHKD",
+    "NGOCVTH": "Võ Thị Hải Ngọc - KHKD",
+    "THAOKTP": "Khổng Thị Phương Thảo - KHKD",
+    "THAOBP": "Bùi Phương Thảo - KHKD",
+    "LAMNT6": "Nguyễn Tùng Lâm - KHKD",
+    "THIETNV2": "Nguyễn Văn Thiết - KHKD",
+    "DATDT": "Đào Trọng Đạt - KHKD",
+    "THUNPA": "Nguyễn Phạm Anh Thư - KHKD",
+    "HANGNTT": "Nguyễn Thị Thúy Hằng - KHKD",
+    "LANT": "Ngô Thị La - KHKD",
+    "THUDT": "Dương Thị Thu - KHKD",
+    "CHILT": "Lê Thị Chi - KHKD",
+    "HANHNTM": "Nguyễn Thị Minh Hạnh - KHKD",
+    "ANHNTL": "Nguyễn Thị Lan Anh - KHKD",
+    "NGANLT": "Lê Thị Ngân - KHKD",
+    "HALTT": "Lê Thị Thu Hà - KHKD",
+    "THANHNT4": "Nguyễn Tiến Thành - KHKD",
+    "LAMNTH": "Nguyễn Thị Hồng Lam - KHKD",
+    "LYDTH": "Đặng Thị Hoa Lý - KHKD",
+    "NGOCDH2": "Đỗ Hồng Ngọc - KHKD",
+    "HUONGTT2": "Trần Thị Hương - KHKD",
+    "HUENH1": "Nguyễn Hồng Huế - KHKD",
+    "YENDT2": "Đoàn Thị Yến - KHKD",
+    "PHUCDTH": "Đỗ Thị Hồng Phúc - KHKD",
+    "HANHTT": "Trần Thị Hạnh - KHKD",
+    "HANGVTT": "Vũ Thị Thu Hằng - KHKD",
+    "ANHDT": "Đào Tuấn Anh - KHKD",
+    "HIENTV": "Thái Văn Hiền - ĐTPC",
+    "SANGNX": "Nguyễn Xuân Sáng - ĐTPC",
+    "ATNT": "Nguyễn Thế Ất - ĐTPC",
+    "TRANGPT1": "Phạm Thị Trang - ĐTPC",
+    "TAMTT": "Trần Thanh Tâm - ĐTPC",
+    "HANHNH1": "Nguyễn Hồng Hạnh - ĐTPC",
+    "THAOTTH1": "Trần Thị Hương Thảo - ĐTPC",
+    "THEMDD": "Đoàn Đức Thêm - ĐTPC",
+    "TIENNX1": "Nguyễn Xuân Tiến - ĐTPC",
+    "LINHDH1": "Đoàn Hoàng Linh - ĐTPC",
+    "HAHT": "Hồ Thanh Hà - KTVT",
+    "HUYDD": "Đỗ Duy Huy - KTVT",
+    "THUYNA": "Ngô Anh Thùy - KTVT",
+    "TUYENDS": "Đào Sơn Tuyên - KTVT",
+    "TANNV": "Nguyễn Văn Tân - KTVT",
+    "KHIEMHH": "Hoàng Hữu Khiêm - KTVT",
+    "HAITV2": "Trần Vũ Hải - KTVT",
+    "THULM1": "Lý Minh Thư - KTVT",
+    "THIND": "Nguyễn Đình Thi - KTVT",
+    "MYNP": "Nguyễn Phan Mỹ - ĐIỀU ĐỘ",
+    "HUNGPP": "Phạm Phi Hùng - ĐIỀU ĐỘ",
+    "ANHLT1": "Lê Tuấn Anh - ĐIỀU ĐỘ",
+    "KHANHLB": "Lê Bá Khánh - ĐIỀU ĐỘ",
+    "LUANNV2": "Nguyễn Văn Luân - ĐIỀU ĐỘ",
+    "DONGNV": "Ngô Văn Đông - ĐIỀU ĐỘ",
+    "LYLK": "Lê Kim Lý - ĐIỀU ĐỘ",
+    "QUOCLV": "Lê Văn Quốc - ĐIỀU ĐỘ",
+    "DUYNN": "Nguyễn Ngọc Duy - ĐIỀU ĐỘ",
+    "HUYDL1": "Đồng Lê Huy - ĐIỀU ĐỘ",
+    "HUNGNM2": "Nguyễn Mạnh Hùng - ĐIỀU ĐỘ",
+    "PHUCHD": "Hoàng Đức Phúc - ĐIỀU ĐỘ",
+    "BAOT": "Trần Bảo - ĐIỀU ĐỘ",
+    "TUNT": "Nguyễn Thanh Tú - ĐIỀU ĐỘ",
+    "KHANHLM1": "Lê Minh Khánh - ĐIỀU ĐỘ",
+    "HUYBQ3": "Bùi Quang Huy - ĐIỀU ĐỘ",
+    "HAINV7": "Nguyễn Văn Hải - ĐIỀU ĐỘ",
+    "DONGNV1": "Nguyễn Văn Đông - ĐIỀU ĐỘ",
+    "CHUNGNT2": "Nguyễn Thành Chung - ĐIỀU ĐỘ",
+    "VUONGNT": "Nguyễn Trần Vương - ĐIỀU ĐỘ",
+    "BINHTT2": "Trần Thanh Bình - ĐIỀU ĐỘ",
+    "KIENTT": "Trịnh Trung Kiên - ĐIỀU ĐỘ",
+    "BINHLT2": "Lê Thanh Bình - ĐIỀU ĐỘ",
+    "BINHDT3": "Đặng Thanh Bình - ĐIỀU ĐỘ",
+    "NGOCNT1": "Nguyễn Tuấn Ngọc - ĐIỀU ĐỘ",
+    "BINHTH": "Trần Hữu Bình - ĐIỀU ĐỘ",
+    "DUNGVD": "Vũ Đình Dũng - ĐIỀU ĐỘ",
+    "TUONGMD": "Mai Đình Tưởng - ĐIỀU ĐỘ",
+    "TUANVA2": "Vũ Anh Tuấn - ĐIỀU ĐỘ",
+    "LUCHD": "Hoàng Duy Lực - ĐIỀU ĐỘ",
+    "SONNT12": "Nguyễn Trần Sơn - ĐIỀU ĐỘ",
+    "HUYPQ1": "Phạm Quang Huy - ĐIỀU ĐỘ",
+    "HUNGTM": "Tiểu Mạnh Hưng - ĐIỀU ĐỘ",
+    "DICHNV1": "Nguyễn Văn Đích - ĐIỀU ĐỘ",
+    "TIENLN1": "Lê Ngọc Tiến - ĐIỀU ĐỘ",
+    "KIENNN": "Ngô Nam Kiên - ĐIỀU ĐỘ",
+    "HOANNV1": "Nguyễn Văn Hoàn - ĐIỀU ĐỘ",
+    "NAMLD": "Lê Doãn Nam - ĐIỀU ĐỘ",
+    "HUYND": "Nguyễn Đức Huy - ĐIỀU ĐỘ",
+    "TAMNH1": "Nguyễn Hữu Tâm - ĐIỀU ĐỘ",
+    "PHUONGL": "Lê Phương - ĐIỀU ĐỘ",
+    "KHANDN": "Đặng Ngọc Khánh - ĐIỀU ĐỘ",
+    "VINHQ2": "Ngô Quang Vinh - ĐIỀU ĐỘ",
+    "HAITQ1": "Trần Quang Hải - ĐIỀU ĐỘ",
+    "DUNGTT2": "Trần Trung Dũng - ĐIỀU ĐỘ",
+    "LAILH": "Lê Hồng Lai - ĐIỀU ĐỘ",
+    "HUYNQ2": "Nguyễn Quang Huy - ĐIỀU ĐỘ",
+    "NGUYENVC": "Vũ Cao Nguyên - ĐIỀU ĐỘ",
+    "DUANPV": "Phạm Văn Duẩn - ĐIỀU ĐỘ",
+    "TANNM": "Nguyễn Minh Tân - ĐIỀU ĐỘ",
+    "NGHIATV2": "Trần Văn Nghĩa - ĐIỀU ĐỘ",
+    "NGHIANV3": "Nguyễn Văn Nghĩa - ĐIỀU ĐỘ",
+    "QUYVT": "Vũ Trọng Quý - ĐIỀU ĐỘ",
+    "TAIHN": "Hoàng Ngọc Tài - ICDNT",
+    "HALT": "Lê Thị Hà - ICDNT",
+    "NGOCNT": "Ngô Thị Ngọc - ICDNT",
+    "THAOTT1": "Trần Thị Thảo - ICDNT",
+    "THANHPTP": "Phạm Thị Phương Thanh - ICDNT",
+    "BICHLTN": "Lê Thị Ngọc Bích - ICDNT",
+    "CHITTK": "Trần Thị Kim Chi - ICDNT",
+    "QUYNHMT": "Mai Thị Quỳnh - ICDNT",
+    "HUEVT2": "Vũ Thị Huệ - ICDNT",
+    "YENDT": "Đào Thị Yến - ICDNT",
+    "DUCNV2": "Nguyễn Viết Đức - ICDNT",
+    "LAMDV": "Đinh Văn Lâm - ICDNT",
+    "DUYPV1": "Phạm Văn Duy - ICDNT",
+    "HUNGDM2": "Đoàn Mạnh Hùng - ICDNT",
+    "DIENVM": "Vũ Mạnh Điển - ICDNT",
+    "HUNGNDH": "Nguyễn Đặng Hồng Hưng - ICDNT",
+    "THITM": "Trần Minh Thi - ICDNT",
+    "TRIEULH": "Lưu Hải Triều - ICDNT",
+    "SONLH2": "Lê Hải Sơn - ICDNT",
+    "THUYNTK": "Nguyễn Thị Kim Thùy - ICDNT",
+    "HUNGBQ1": "Bùi Quang Hùng - ICDNT",
+    "TUANNM7": "Ngô Minh Tuấn - ICDNT",
+    "LONGLN1": "Lê Ngọc Long - ICDNT",
+    "HAUTV": "Trần Văn Hậu - ICDNT",
+    "HIEUHK": "Hoàng Kim Hiếu - ICDNT",
+    "HUNGDT": "Đỗ Trọng Hùng - ICDNT",
+    "DUCTM1": "Tạ Minh Đức - ICDNT",
+    "GAMNN": "Nguyễn Như Gấm - ICDNT",
+    "SYDV1": "Đỗ Văn Sỹ - ICDNT",
+    "TOANNV10": "Ninh Văn Toàn - ICDNT",
+    "TUANDC": "Đinh Cường Tuấn - ICDNT",
+    "DIEPPT": "Phạm Thị Điệp - ICDNT",
+    "THUANTT1": "Trần Thị Thuận - ICDNT",
+    "MINHNT3": "Nguyễn Thị Minh - ICDNT",
+    "DULN": "Lê Ngọc Dư - ICDNT",
+    "THINHVD": "Vũ Đức Thịnh - CGXD",
+    "TULM": "Lê Minh Tú - CGXD",
+    "VIETVQ": "Vũ Quốc Việt - CGXD",
+    "KHUONGTC": "Trần Công Khương - CGXD",
+    "VINHVB": "Vũ Bá Vinh - CGXD",
+    "DONGDV1": "Đỗ Văn Đông - CGXD",
+    "MICHNV": "Nguyễn Văn Mích - CGXD",
+    "MANHLT": "Lê Trọng Mạnh - CGXD",
+    "NGOCNT4": "Nguyễn Tiến Ngọc - CGXD",
+    "NGOCPV": "Phạm Văn Ngọc - CGXD",
+    "DUONGTN": "Tạ Ngọc Dương - CGXD",
+    "HIEUNN": "Ngô Ngọc Hiếu - CGXD",
+    "NAMDV7": "Đặng Văn Nam - CGXD",
+    "THIENLT": "Lê Tất Thiện - CGXD",
+    "NAMNN1": "Nguyễn Ngọc Nam - CGXD",
+    "LONGPQ": "Phạm Quang Long - CGXD",
+    "CHIENLV": "Lê Văn Chiến - CGXD",
+    "PHUONGHV": "Hoa Văn Phương - CGXD",
+    "SONLD": "Lê Duy Sơn - CGXD",
+    "HUNGDV2": "Đặng Văn Hùng - CGXD",
+    "TRUNGLV2": "Lê Văn Trung - CGXD",
+    "CUONGNN2": "Nguyễn Ngọc Cường - CGXD",
+    "CONGDV1": "Đặng Văn Công - CGXD",
+    "THUONGDM": "Dương Minh Thưởng - CGXD",
+    "TUNGDQ": "Đinh Quang Tùng - CGXD",
+    "TRIMV": "Mai Văn Trí - CGXD",
+    "TAINX": "Ngô Xuân Tài - CGXD",
+    "KHUONGTV": "Trần Văn Khương - CGXD",
+    "THOLP": "Lê Phú Thọ - CGXD",
+    "DATNV1": "Nguyễn Văn Đạt - CGXD",
+    "DUNGNQ1": "Nguyễn Quang Dũng - CGXD",
+    "QUYETND": "Nguyễn Đình Quyết - CGXD",
+    "LONGPD": "Phí Đức Long - CGXD",
+    "TUNH": "Nguyễn Huy Tứ - CGXD",
+    "BIENGV": "Giáp Văn Biên - CGXD",
+    "BANGNT": "Nguyễn Thế Bằng - CGXD",
+    "SONVV": "Vũ Văn Sơn - CGXD",
+    "SONPD": "Phạm Duy Sơn - CGXD",
+    "QUANGDA": "Đặng Anh Quang - CGXD",
+    "THUONGNH": "Nguyễn Hữu Thương - CGXD",
+    "TAMNT6": "Nguyễn Tử Tám - CGXD",
+    "VINHLX": "Lê Xuân Vinh - CGXD",
+    "ANTV": "Thái Văn An - CGXD",
+    "KHANHLN1": "Lê Ngọc Khánh - CGXD",
+    "KIENNX2": "Nguyễn Xuân Kiên - CGXD",
+    "LAMND": "Nguyễn Duy Lam - CGXD",
+    "THANHNH3": "Nguyễn Hữu Thành - CGXD",
+    "THANGHV1": "Hoàng Văn Thắng - CGXD",
+    "PHONGNN": "Nguyễn Như Phong - CGXD",
+    "HIEUDT1": "Đồng Trung Hiếu - CGXD",
+    "VINHPN1": "Phạm Nho Vinh - CGXD",
+    "SINHNT1": "Nguyễn Trường Sinh - CGXD",
+    "THINHNT1": "Nguyễn Tiến Thịnh - CGXD",
+    "QUANGTM1": "Trần Minh Quang - CGXD",
+    "PHONGTQ1": "Tôn Quang Phong - CGXD",
+    "TUANNX2": "Ngô Xuân Tuấn - CGXD",
+    "NANGVV1": "Vũ Văn Năng - CGXD",
+    "TRUNGLV1": "Lê Văn Trung - CGXD",
+    "CHUNGNQ": "Nguyễn Quang Chung - CGXD",
+    "HIEUPV1": "Phạm Văn Hiếu - CGXD",
+    "MANHTH": "Trần Hùng Mạnh - CGXD",
+    "DINHPV1": "Phạm Văn Đính - CGXD",
+    "KHUONGMC": "Mai Chí Khương - CGXD",
+    "THOAINN": "Nguyễn Ngọc Thoại - CGXD",
+    "PHUOCDH": "Dương Hữu Phước - CGXD",
+    "TUANNV5": "Nguyễn Văn Tuân - CGXD",
+    "HOINV": "Nguyễn Văn Hợi - CGXD",
+    "THANGTV1": "Trần Văn Thắng - CGXD",
+    "NGUYENHV": "Hoàng Văn Nguyên - CGXD",
+    "PHUONGVD": "Vũ Duy Phương - CGXD",
+    "KHOADM": "Đỗ Minh Khoa - CGXD",
+    "TRINHHM": "Hoàng Minh Trình - TVĐN",
+    "CHILN": "Lê Ngọc Chi - TVĐN",
+    "PHUONGND": "Nguyễn Đăng Phương - TVĐN",
+    "ANHNT3": "Nguyễn Tuấn Anh - TVĐN",
+    "THIANT": "Nguyễn Thị Thía - TVĐN",
+    "THANHHT2": "Hà Thị Thanh - TVĐN",
+    "NGOCPTP": "Phan Thị Phương Ngọc - TVĐN",
+    "LINHCTT": "Cao Thị Thùy Linh - TVĐN",
+    "HONGLT": "Lưu Thị Hồng - TVĐN",
+    "OANHTTH": "Trần Thị Hồng Oanh - TVĐN",
+    "NGOCVB1": "Văn Bích Ngọc - TVĐN",
+    "BAOTQ": "Trịnh Quốc Bảo - TVĐN",
+    "HOANPT": "Phạm Thị Hoàn - TVĐN",
+    "NGHIAPD": "Phạm Duy Nghĩa - TVĐN",
+    "ANHNTP": "Nguyễn Thị Phương Anh - ESL",
+    "OANHLTK1": "Lê Thị Kim Oanh - ESL",
+    "HATT3": "Trần Thị Hà - ESL",
+    "DUCTT4": "Trần Thị Đức - ESL",
+    "BINHTT7": "Trịnh Thị Bính - ESL",
+    "DIENTNTN": "Nguyễn Thị Ngọc Diện - ESL",
+    "HOANPT1": "Phạm Thị Hoàn - ESL",
+    "ANHNH4": "Nguyễn Huyền Anh - ESL",
+    "HANGNTT5": "Nguyễn Thị Thanh Hằng - ESL",
+    "BAOTQ1": "Trịnh Quốc Bảo - ESL",
+    "TAMHTT": "Huỳnh Thị Thanh Tâm - ESL",
+    "TRANGVTH": "Vũ Thị Huyền Trang - ESL",
+    "VANDTT3": "Đặng Thị Thúy Vân - ESL",
+    "NGANT7": "Nguyễn Thị Nga - ESL",
+    "UYENDTT": "Đinh Thị Thu Uyên - ESL",
+    "LOINVH": "Nguyễn Vũ Hữu Lợi - ESL",
+    "OANHHTK2": "Hoàng Thị Kiều Oanh - ESL",
+    "HANNP": "Nguyễn Phúc Hân - ESL",
+    "TRUCPTH": "Phạm Thị Hoài Trúc - ESL",
+    "DONGTV2": "Trần Văn Đông - ESL",
+    "TRUNGNQ": "Nguyễn Quốc Trung - ESL",
+    "HIEUNT1": "Nguyễn Trung Hiếu - ESL",
+    "NGOCVB": "Văn Bích Ngọc - ESL",
+    "MINHCT5": "Cao Thị Minh - ESL",
+    "NHUNGHT": "Hoàng Thị Nhung - ESL",
+    "TUYENCD": "Cao Đức Tuyên - CGXD"
+},
+  "questions": [
+      {
+  "text": "01.Ngày truyền thống của công ty TCL là ngày nào?",
+  "options": [
+    "$15/01/2006",
+    "%11/05/2006",
+    "+15/01/2005",
+    "*11/05/2005"
+  ]
+},
+    {
+  "text": "02.Đơn vị tiền thân của công ty TCL tên gọi là gì?",
+  "options": [
+    "$Công ty Đại lý GNVTXD Tân Cảng",
+    "%Xí nghiệp Đại lý GNVTXD Tân Cảng",
+    "+Công ty Tân Cảng Logistics",
+    "*Công ty Tân Cảng Sài Gòn"
+  ]
+},
+{
+  "text": "03.Quyết định thành lập công ty TCL do cơ quan, tổ chức nào ban hành?",
+  "options": [
+    "$Bộ Quốc phòng",
+    "%Quân chủng Hải quân",
+    "+Hội đồng Quản trị Công ty Tân Cảng Sài Gòn",
+    "*Hội đồng Thành viên Công ty TNHH MTV Tổng công ty Tân Cảng Sài Gòn"
+  ]
+},
+{
+  "text": "04.Quyết định thành lập công ty TCL ra ngày nào?",
+  "options": [
+    "$11/05/2006",
+    "%15/01/2007",
+    "+13/03/2007",
+    "*15/03/2007"
+  ]
+},
+{
+  "text": "05.Quyết định thành lập công ty TCL có số hiệu gì?",
+  "options": [
+    "$.82/2006/QĐ-BQP",
+    "%.46/2006/QĐ-HQ",
+    "+.442/QĐ-QC",
+    "*.442/QĐ-TC-TCLĐ"
+  ]
+},
+{
+  "text": "06.Phiên giao dịch đầu tiên trên sàn chứng khoán HOSE của công ty TCL là ngày nào?",
+  "options": [
+    "$24/12/2008",
+    "%24/12/2009",
+    "+12/04/2008",
+    "*12/04/2009"
+  ]
+},
+{
+  "text": "07.Vốn điều lệ khi lên sàn chứng khoán HOSE của công ty TCL là bao nhiêu?",
+  "options": [
+    "$120 tỷ VNĐ",
+    "%150 tỷ VNĐ",
+    "+170 tỷ VNĐ",
+    "*180 tỷ VNĐ"
+  ]
+},
+{
+  "text": "08.Vốn điều lệ thời điểm hiện tại (tháng 04/2026) của công ty TCL là bao nhiêu?",
+  "options": [
+    "$170 tỷ VNĐ",
+    "%187 tỷ VNĐ",
+    "+209 tỷ VNĐ",
+    "*Gần 302 tỷ VNĐ"
+  ]
+},
+{
+  "text": "09.Công ty TCL được Sở Kế hoạch và Đầu tư TPHCM cấp Giấy chứng nhận kinh doanh lần đầu vào thời điểm nào?",
+  "options": [
+    "$11/05/2006",
+    "%15/12/2006",
+    "+08/03/2007",
+    "-11/05/2007"
+  ]
+},
+{
+  "text": "10.Qua 20 năm, công ty TCL đã có bao nhiêu đồng chí giữ chức danh Bí thư Đảng ủy?",
+  "options": [
+    "$03 đồng chí",
+    "%04 đồng chí",
+    "+05 đồng chí",
+    "*06 đồng chí"
+  ]
+},
+{
+  "text": "11.Qua 20 năm, công ty TCL đã có bao nhiêu đồng chí giữ chức danh Chủ tịch Hội đồng Quản trị?",
+  "options": [
+    "$02 đồng chí",
+    "%03 đồng chí",
+    "+04 đồng chí",
+    "*05 đồng chí"
+  ]
+},
+{
+  "text": "12.Qua 20 năm, công ty TCL đã có bao nhiêu đồng chí giữ chức danh Giám đốc?",
+  "options": [
+    "$02 đồng chí",
+    "%03 đồng chí",
+    "+04 đồng chí",
+    "*05 đồng chí"
+  ]
+},
+{
+  "text": "13.Qua 20 năm, Ban Giám đốc công ty TCL đã có bao nhiêu đồng chí?",
+  "options": [
+    "$10 đồng chí",
+    "%12 đồng chí",
+    "+15 đồng chí",
+    "*18 đồng chí"
+  ]
+},
+{
+  "text": "14.Qua 20 năm, công ty TCL đã có bao nhiêu đồng chí giữ chức danh Chủ tịch Công đoàn?",
+  "options": [
+    "$03 đồng chí",
+    "%04 đồng chí",
+    "+05 đồng chí",
+    "*06 đồng chí"
+  ]
+},
+{
+  "text": "15.Qua 20 năm, công ty TCL đã có bao nhiêu đồng chí giữ chức danh Chủ tịch Hội Phụ nữ?",
+  "options": [
+    "$02 đồng chí",
+    "%03 đồng chí",
+    "+04 đồng chí",
+    "*05 đồng chí"
+  ]
+},
+{
+  "text": "16.Qua 20 năm, công ty TCL đã có bao nhiêu đồng chí giữ chức danh Bí thư Đoàn Thanh niên?",
+  "options": [
+    "$03 đồng chí",
+    "%04 đồng chí",
+    "+05 đồng chí",
+    "*06 đồng chí"
+  ]
+},
+{
+  "text": "17.Qua 20 năm, công ty TCL đã có bao nhiêu công ty Con (TCL giữ quyền chi phối)?",
+  "options": [
+    "$02 Công ty",
+    "%03 Công ty",
+    "+04 Công ty",
+    "*05 Công ty"
+  ]
+},
+{
+  "text": "18.Qua 20 năm, công ty TCL đã có bao nhiêu Công ty Liên doanh, Liên kết (TCL không giữ quyền chi phối)?",
+  "options": [
+    "$02 Công ty",
+    "%03 Công ty",
+    "+04 Công ty",
+    "*05 Công ty"
+  ]
+},
+{
+  "text": "19.Tòa nhà TCL Building đưa vào hoạt động từ thời điểm nào?",
+  "options": [
+    "$Năm 2016",
+    "%Năm 2017",
+    "+Năm 2018",
+    "*Năm 2019"
+  ]
+},
+{
+  "text": "20.Nhân kỷ niệm 10 năm thành lập (2016), Công ty TCL đã nhận được danh hiệu gì?",
+  "options": [
+    "$Huân chương Lao động hạng Nhất",
+    "%Huân chương Lao động hạng Nhì",
+    "+Huân chương Lao động hạng Ba",
+    "*Bằng khen của Thủ tướng"
+  ]
+},
+{
+  "text": "21.Nhân kỷ niệm 15 năm thành lập (2021), Công ty TCL đã nhận được danh hiệu gì?",
+  "options": [
+    "$Huân chương Lao động hạng Nhất",
+    "%Huân chương Lao động hạng Nhì",
+    "+Huân chương Lao động hạng Ba",
+    "*Bằng khen của Thủ tướng"
+  ]
+},
+{
+  "text": "22.Tính tới thời điểm hiện nay (5/2026), công ty TCL đang là chủ sở hữu những loại trang thiết bị nào?",
+  "options": [
+    "$Cẩu khung bãi; trạm phát điện, nhà kho.",
+    "%Cẩu bờ di động; xe nâng hàng; băng chuyền.",
+    "+Xe nâng rỗng; cẩu bờ cố định, trạm cân Container.",
+    "*Tất cả các loại."
+  ]
+},
+{
+  "text": "23.Những loại hình nào sau đây thuộc danh mục các dịch vụ mà công ty TCL đang trực tiếp cung cấp cho khách hàng?",
+  "options": [
+    "$Xếp dỡ Container; Vận tải bộ; Đóng rút hàng rời.",
+    "%Forwarder; Vận tải thủy; Depot.",
+    "+Depot; Xếp dỡ Container; Đóng rút hàng rời; Nhà kho.",
+    "*Tất cả các dịch vụ."
+  ]
+},
+{
+  "text": "24.Kho bãi Tân Cảng – Nhơn Trạch khai trương vào thời điểm nào?",
+  "options": [
+    "$14/06/2011.",
+    "%18/12/2015.",
+    "+10/01/2016.",
+    "*11/05/2016."
+  ]
+},
+{
+  "text": "25.Depot TC Mỹ Thủy 1 khai trương thời điểm nào?",
+  "options": [
+    "$23/12/2014",
+    "%12/04/2014",
+    "+24/12/2015",
+    "*12/04/2015"
+  ]
+},
+{
+  "text": "26.Phần mềm quản lý, khai thác Container TTOS đang được ứng dụng tại các cơ sở nào thuộc hệ thống TCL?",
+  "options": [
+    "$TCMT1, TCMT2, ICDNT, TC128 – HP",
+    "%TCMT1, TCMT2, ICDNT, TC189 – HP",
+    "+TCMT1, TCMT2, ICDNT, DP Tân Vạn",
+    "*Cả $,%,+"
+  ]
+},
+{
+  "text": "27.Qua 20 năm, đơn vị nào của TCL giữ nguyên tên gọi từ đầu?",
+  "options": [
+    "1Phòng Kế hoạch Kinh doanh",
+    "2Phòng Tài chính Kế toán",
+    "3Phòng Hành chính Hậu cần",
+    "4Phòng Kỹ thuật Vật tư",
+    "5Phòng Cơ giới xếp dỡ",
+    "6Phòng Tổ chức Lao động Tiền lương",
+    "7Phòng Điều độ",
+    "8Phòng Đầu tư Pháp chế"
+  ]
+},
+{
+  "text": "28.Qua 20 năm, TCL đã nhận phụng dưỡng suốt đời bao nhiêu Mẹ VNAH?",
+  "options": [
+    "$02 Mẹ",
+    "%03 Mẹ",
+    "+04 Mẹ",
+    "*05 Mẹ"
+  ]
+},
+{
+  "text": "29.Công ty TCL gia nhập “Câu lạc bộ doanh thu 1000 tỷ” từ năm nào?",
+  "options": [
+    "$2018",
+    "%2019",
+    "+2020",
+    "*2021"
+  ]
+},
+{
+  "text": "30.Nghị quyết lãnh đạo thực hiện nhiệm vụ năm 2026 của Đảng ủy Công ty TCL xác định phương châm sản xuất kinh doanh năm 2026 là gì?",
+  "options": [
+    "$“Thượng tôn pháp luật, đẩy mạnh đầu tư, mở rộng cơ sở hạ tầng SXKD, phát triển thị trường, nâng cao hiệu quả”",
+    "%“Phát triển dịch vụ kho bãi và đẩy mạnh ứng dụng khoa học công nghệ, số hóa, xanh hóa”",
+    "+“Tập trung khai thác cảng, ICD; Khai thác Depot; Dịch vụ kho bãi và Logistics”"
+  ]
+}
+    
+
+  ]
+}
