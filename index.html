@@ -103,7 +103,7 @@
         <button id="submit-btn" class="btn-submit" onclick="submitToGoogle()" disabled>Nộp bài hoàn tất</button>
     </div>
 </div>
-
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 <script>
 let startTime;
 let timerInterval;
@@ -124,7 +124,7 @@ function shuffleArray(array) {
 // Hàm load data từ server
 async function initQuiz() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('question.json?v=${Date.now()}');
         quizData = await response.json();
         
         // Cập nhật số lượng câu hỏi từ JSON
@@ -142,7 +142,13 @@ async function initQuiz() {
 
 function renderQuestions(questions) {
     const quizContent = document.getElementById('quiz-content');
-    questions.forEach((q, index) => {
+    quizContent.innerHTML = ''; // Clear nội dung cũ nếu có
+
+    // Lớp 1: Trộn thứ tự các câu hỏi
+    let shuffledQuestions = [...questions];
+    shuffleArray(shuffledQuestions);
+
+    shuffledQuestions.forEach((q, index) => {
         const div = document.createElement('div');
         div.className = 'question-card';
         
@@ -150,7 +156,8 @@ function renderQuestions(questions) {
         shuffleArray(options); // Bây giờ đã chạy được
 
         div.innerHTML = `
-            <span class="question-text">Câu ${index + 1}: ${q.text}</span>
+            <span class="question-num">Câu ${index + 1}:</span>
+            <span class="question-text">${q.text}</span>
             <div class="options">
                 ${options.map(opt => `
                     <label class="option-item" id="label-q${index + 1}-${opt}">
@@ -181,7 +188,7 @@ function checkCompletion() {
 }
 
 function startTimer() {
-    let timeLeft = 15 * 60; // 15 phút
+    let timeLeft = 30 * 60; // 15 phút
     timerInterval = setInterval(() => {
         timeLeft--;
         let m = Math.floor(timeLeft / 60), s = timeLeft % 60;
@@ -223,7 +230,7 @@ function submitToGoogle1() {
     alert("Đã nộp bài!");
     setTimeout(() => location.reload(), 1000);
 }
-function submitToGoogle() {
+function submitToGoogle2() {
     clearInterval(timerInterval);
     
     // Sử dụng mảng để chứa các câu trả lời, sau đó nối lại bằng dấu phẩy
@@ -270,6 +277,53 @@ function submitToGoogle() {
     
     // Tải lại trang sau 1 giây
     setTimeout(() => location.reload(), 1000);
+}
+function submitToGoogle() {
+    clearInterval(timerInterval);
+    let answersArray = []; 
+    
+    // Lấy tất cả các thẻ nội dung câu hỏi một lần duy nhất bên ngoài vòng lặp
+    const questionElements = document.querySelectorAll('.question-text');
+    
+    for (let i = 1; i <= TOTAL_QUESTIONS; i++) {
+        const sel = document.querySelector(`input[name="q${i}"]:checked`);
+        
+        // Lấy 2 từ đầu tiên trực tiếp từ q.text đã tách sẵn ở HTML
+        // --- LẤY 2 CHỮ CÁI ĐẦU TIÊN CỦA CÂU HỎI ---
+        let questionPrefix = "";
+        if (questionElements[i - 1]) {
+            // Lấy nội dung, bỏ khoảng trắng thừa
+            let text = questionElements[i - 1].innerText.trim();
+            
+            // Lấy đúng 2 ký tự đầu tiên (ví dụ: "Thủ đô" -> "Th")
+            questionPrefix = text.substring(0, 3); 
+        }
+// ------------------------------------------
+        let currentAnswer = sel ? String(sel.value).substring(0, 1) : "?";
+        
+        // Định dạng gửi đi: "1(2 từ đầu): Đáp án"
+        answersArray.push(`${questionPrefix}:${currentAnswer}`);
+    }
+    
+    const finalAnswersString = answersArray.join(", ");
+    const timeSpent = Math.floor((Date.now() - startTime) / 1000);
+    const formID = "1FAIpQLScuwU77cCjfYkPnFiueZ1auhfLEzJUsI9QdMv0PnrgS8jJGsA";
+    
+    const url = `https://docs.google.com/forms/d/e/${formID}/formResponse?entry.1986564645=${encodeURIComponent(`[${currentUserId}] ${currentUserFullName}`)}&entry.584269068=${encodeURIComponent(finalAnswersString)}&entry.246954035=${encodeURIComponent(timeSpent)}&submit=Submit`;
+    
+    const iframe = document.createElement('iframe');
+    iframe.src = url;
+    iframe.style.display = 'none';
+    document.body.appendChild(iframe);
+    confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 }
+    });
+    
+
+    //alert("Đã nộp bài!");
+    setTimeout(() => location.reload(), 3000);
 }
 
 </script>
