@@ -97,7 +97,7 @@
   .hl li::before { content:"\25B8"; color:var(--accent); position:absolute; left:2px; font-weight:bold; }
   .hl b { color:var(--accent); }
 
-  /* voices table */
+  /*  table */
   table.vtable { border-collapse:collapse; width:100%; margin:16px 0 8px; }
   table.vtable thead th { text-align:left; font-size:12px; letter-spacing:.5px; text-transform:uppercase;
       color:var(--muted2); font-weight:normal; padding:0 12px 10px 0; border-bottom:2px solid var(--ink); }
@@ -105,11 +105,11 @@
   td.lang-cell { font-weight:bold; font-size:18px; white-space:nowrap; width:1%; }
   td.lang-cell .native { display:block; font-weight:normal; font-size:13px; color:var(--muted2);
       margin-top:4px; white-space:normal; max-width:160px; }
-  td.voices-cell .vrow { margin-bottom:11px; }
-  td.voices-cell .vrow:last-child { margin-bottom:0; }
-  td.voices-cell .vname { font-weight:bold; }
-  td.voices-cell .vparams { color:var(--muted2); font-size:13px; margin-left:6px; }
-  td.voices-cell .vnote { display:block; color:var(--muted2); font-size:13px; margin-top:2px; }
+  td.-cell .vrow { margin-bottom:11px; }
+  td.-cell .vrow:last-child { margin-bottom:0; }
+  td.-cell .vname { font-weight:bold; }
+  td.-cell .vparams { color:var(--muted2); font-size:13px; margin-left:6px; }
+  td.-cell .vnote { display:block; color:var(--muted2); font-size:13px; margin-top:2px; }
   td.listen-cell { min-width:260px; width:300px; }
   td.cer-cell { font-size:20px; font-weight:bold; color:var(--accent); white-space:nowrap;
       width:1%; text-align:right; }
@@ -234,7 +234,7 @@
   <p class="statement">The smallest neural text-to-speech family we know of &mdash;
   and it plays right here, live, in your browser.</p>
   <p class="lead" style="text-align:center">a full neural stack &mdash; duration &rarr; acoustic &rarr; decoder &mdash;
-  quantized to int8, phonemizer and all. 28 voices, 16 languages, all spoken on this page.</p>
+  quantized to int8, phonemizer and all. 28 , 16 languages, all spoken on this page.</p>
 
   <hr>
 
@@ -268,7 +268,7 @@
   picker synthesizes your typed text live, right here, with no server involved. Where a language
   offers two sizes, the chips under its mascot switch between them.
   <i>heart</i> and <i>heart-nano</i> take a different route from text to sound than the other
-  voices (a 100-band mel interface into a noise-shaping decoder), so they load their own small
+   (a 100-band mel interface into a noise-shaping decoder), so they load their own small
   runtime; <i>heart-nano</i> runs the int8 arithmetic of the microcontroller build unchanged.</p>
 
 
@@ -277,7 +277,7 @@
     <li>runs <b>real-time</b> on a <b>$3 microcontroller</b> (ESP32-S3)</li>
     <li>runs right in your browser &mdash; <b>WebAssembly</b>, no server</li>
     <li>under <b>4&nbsp;MB</b> per voice, zero dependencies (espeak-ng phonemizer included)</li>
-    <li><b>11 voices</b> across <b>6 languages</b> &mdash; English, Nepali (नेपाली), Hindi (हिन्दी),
+    <li><b>11 </b> across <b>6 languages</b> &mdash; English, Nepali (नेपाली), Hindi (हिन्दी),
       Vietnamese (Tiếng Việt), Indonesian (Bahasa), Chinese (中文) &mdash; all synthesizing live on this page</li>
     <li><b>new:</b> <b>ten more languages</b> &mdash; German, French, Spanish, Italian,
       Portuguese, Russian, Czech, Romanian, Turkish and Arabic &mdash; added 2026-09-08, each in a
@@ -289,7 +289,7 @@
       text-to-speech stack, int8, in 337&nbsp;KB. Both synthesize live in the picker above</li>
     <li><b>new, experimental:</b> <b>trellis</b> &mdash; a whole new architecture that fits a
       complete voice in <b>under 1M parameters</b> and runs about <b>5&times; faster</b> in the
-      browser than our 1.4M&ndash;1.8M voices. It synthesizes live up there too &mdash; a research
+      browser than our 1.4M&ndash;1.8M . It synthesizes live up there too &mdash; a research
       preview, not yet as natural-sounding as <i>amy</i></li>
     <li>open source, <b>GPL-3.0</b></li>
   </ul>
@@ -304,7 +304,7 @@
      text-transform:uppercase"><b>Size comparison (parameters)</b></p>
   <svg viewBox="0 0 640 270" font-family="Lucida Console, Monaco, monospace" font-size="11"
        style="width:100%;max-width:640px;height:auto;display:block;margin:0 auto"
-       role="img" aria-label="Horizontal bar chart of parameter count on a linear axis from 0 to 85 million. The sanoTTS family, 0.29 to 2.27 million parameters across 11 voices, and TinyTTS at 1.62 million are tiny slivers; Inflect Nano at 4.63 million is a short bar; Kokoro at 82 million fills nearly the whole axis. sanoTTS is highlighted in crimson.">
+       role="img" aria-label="Horizontal bar chart of parameter count on a linear axis from 0 to 85 million. The sanoTTS family, 0.29 to 2.27 million parameters across 11 , and TinyTTS at 1.62 million are tiny slivers; Inflect Nano at 4.63 million is a short bar; Kokoro at 82 million fills nearly the whole axis. sanoTTS is highlighted in crimson.">
     <title>Size comparison (parameters)</title>
     <!-- gridlines: linear axis 0 to 85M, plot x 145..620 -->
     <line x1="145"   y1="20" x2="145"   y2="228" stroke="#ccc" stroke-width="1"/>
@@ -321,7 +321,7 @@
     <text x="382" y="263" text-anchor="middle" fill="#888" font-size="10">parameters &#8212; linear axis, so the sliver IS the point</text>
 
     <!-- sanoTTS family: darker crimson 0..0.29M (smallest voice), crimson to 2.27M (largest); 5.588 px per million -->
-    <text x="135" y="39" text-anchor="end" fill="#111" font-weight="bold" font-size="12">sanoTTS (11 voices)</text>
+    <text x="135" y="39" text-anchor="end" fill="#111" font-weight="bold" font-size="12">sanoTTS (11 )</text>
     <text x="135" y="53" text-anchor="end" fill="#666" font-size="10">0.29M&#8211;2.27M params</text>
     <rect x="145" y="30" width="12.7" height="20" fill="#DC143C"><title>sanoTTS family: largest voice heart, 2.27M params</title></rect>
     <rect x="145" y="30" width="1.6" height="20" fill="#8B0A26"><title>sanoTTS family: smallest voice heart-nano, 294k params</title></rect>
@@ -419,7 +419,7 @@
   <p class="lead" style="margin:32px 0 6px"><b>Every language we ship, and what we know about it</b></p>
   <p class="note"><b>WER</b> is Whisper word error rate over 16 held-out Tatoeba sentences per
   language &mdash; conversational text, deliberately a different domain from the corpus these
-  voices were distilled on. The <b>sample</b> buttons synthesize that language on this page, right
+   were distilled on. The <b>sample</b> buttons synthesize that language on this page, right
   now, through the same runtime as the picker above. Where a language ships in two sizes, both are
   playable.</p>
   <table class="langtable">
@@ -549,10 +549,10 @@ const log = m => { $("log").textContent += m + "\n"; };
 // predates the multi-voice front+decoder chain below and is bit-exact with
 // the ESP32-S3 firmware, so it is left untouched. Every other voice runs
 // through snt_voice.js (SaanoVoice), chaining the fp32 front half (duration
-// + acoustic) into the piperlite decoder, fed by web/voices/<key>/*.bin
+// + acoustic) into the piperlite decoder, fed by web//<key>/*.bin
 // (tools/export_voice_bundle.py) and phonemized by the SAME espeak-ng wasm
 // module (snt_g2p.js), switched per voice via snt_g2p_set_voice.
-const VOICES = [
+const  = [
   {key:"amy",      label:"amy",        params:"1.46M", flag:"\uD83C\uDDFA\uD83C\uDDF8", live:true, emj:"\uD83D\uDC26"},
   {key:"kristin",  label:"kristin",    params:"1.40M", flag:"\uD83C\uDDFA\uD83C\uDDF8", live:true, emj:"\uD83E\uDD8A"},
   {key:"hfc",      label:"hfc",        params:"1.83M", flag:"\uD83C\uDDFA\uD83C\uDDF8", live:true, emj:"\uD83E\uDD89"},
@@ -582,14 +582,14 @@ const VOICES = [
   // --- added 2026-09-08: ten more languages, each in two sizes ------------
   // Same SaanoVoice lane as vietnamese/indonesian/nepali/hindi/chinese above
   // -- nothing new in the runtime -- so espeak_voice, g2p_voice_slot and
-  // length_scale all travel in web/voices/<key>/meta.json and this table
+  // length_scale all travel in web//<key>/meta.json and this table
   // carries none of them. Two of them need work before the phonemizer, wired
   // in synthVoice: Russian fetches its stress lexicon per utterance, Arabic
   // runs piper's diacritizer first.
   //
   // `group` is what the picker draws as ONE tile: the 1.56M voice and its
   // ~511k sibling share a mascot and appear as two size chips, so twenty-eight
-  // voices fit in twenty tiles. fr_FR and ar_JO were never trained small, so
+  //  fit in twenty tiles. fr_FR and ar_JO were never trained small, so
   // they have a single chip.
   {key:"german", group:"german", label:"German", params:"1.57M", exact:1565324, flag:"\uD83C\uDDE9\uD83C\uDDEA", live:true, emj:"\uD83E\uDD8C"},
   {key:"german-tiny", group:"german", label:"German", params:"512k", exact:511611, flag:"\uD83C\uDDE9\uD83C\uDDEA", live:true, emj:"\uD83E\uDD8C"},
@@ -610,10 +610,10 @@ const VOICES = [
   {key:"turkish-tiny", group:"turkish", label:"Turkish", params:"510k", exact:510091, flag:"\uD83C\uDDF9\uD83C\uDDF7", live:true, emj:"\uD83D\uDC08"},
   {key:"arabic", group:"arabic", label:"Arabic", params:"1.57M", exact:1566124, flag:"\uD83C\uDDEF\uD83C\uDDF4", live:true, emj:"\uD83D\uDC2A"},
 ];
-let voice = VOICES[0];
+let voice = [0];
 // Native default sentence per voice, swapped into the textarea on every mascot
 // switch (always replaces whatever the user typed, by design). Keyed by
-// voice.key; the four English voices share one sentence.
+// voice.key; the four English  share one sentence.
 const DEFAULT_TEXT = {
   mcu:     "Hello! I am a tiny voice living in your browser.",
   amy:     "Hello! I am a tiny voice living in your browser.",
@@ -640,7 +640,7 @@ const DEFAULT_TEXT = {
 };
 
 // The picker draws one TILE per `group` (a language, or a one-off voice), with
-// one chip per size inside it. Twenty-eight voices in twenty tiles: the two
+// one chip per size inside it. Twenty-eight  in twenty tiles: the two
 // sizes of a language are the same voice at two budgets, not two entries to
 // scan past, and at ~28 separate blocks the picker stopped fitting on screen.
 function selectVoice(v) {
@@ -658,7 +658,7 @@ function renderMascots() {
   const box = $("mascots");
   box.innerHTML = "";
   const order = [], byGroup = new Map();
-  for (const v of VOICES) {
+  for (const v of ) {
     const g = v.group || v.key;
     if (!byGroup.has(g)) { byGroup.set(g, []); order.push(g); }
     byGroup.get(g).push(v);
@@ -709,7 +709,7 @@ function updateUI() {
 let Mod=null, G2P=null, Voice=null, Trellis=null, audioCtx=null, lastPcm=null, mcuAssets=null;
 const voiceBundles = new Map(); // key -> Promise<{meta,front,dec}>
 let trellisBundle=null, trellisFrontend=null;
-// snt_nano voices: one module per voice (SaanoNanoHeart, SaanoNanoHeartNano)
+// snt_nano : one module per voice (SaanoNanoHeart, SaanoNanoHeartNano)
 const NANO_MODULES = {};        // key -> instantiated Emscripten module
 const nanoBundles = new Map();  // key -> Promise<{meta,front,dec}>
 const NANO_ARENA = 16*1024*1024, NANO_OUT_CAP = 24000*30;
@@ -739,16 +739,12 @@ async function loadMcuAssets(){
 // re-download the whole voice each time, which is worse than serving from
 // this origin ever was -- the caching is what makes the move safe, not a
 // nicety on top of it.
-const VOICE_HOSTS = {
-  hf:    {label:"Hugging Face", base:"https://huggingface.co/ampixa/sanoTTS/resolve/main/web/voices/"},
-  gh:    {label:"GitHub",       base:"https://raw.githubusercontent.com/Ampixa/sanoTTS/master/web/voices/"},
-  local: {label:"this site",    base:"voices/"},
-};
-const VOICE_CACHE = "sanotts-voices-v1";
+const VOICE_HOSTS = "local";
+const VOICE_CACHE = "sanotts--v1";
 
 function voiceHostOrder(){
-  const pin = new URLSearchParams(location.search).get("voices");
-  if(pin && VOICE_HOSTS[pin]) return [pin];          // ?voices=hf|gh|local
+  const pin = new URLSearchParams(location.search).get("");
+  if(pin && VOICE_HOSTS[pin]) return [pin];          // ?=hf|gh|local
   // Hugging Face first, everywhere, including a local checkout. The weights are
   // distributed from HF; that is the path a visitor takes, so it is the path we
   // develop and demo against. Serving them from the same origin during local
@@ -759,8 +755,8 @@ function voiceHostOrder(){
   // 29-42 ms same-origin. That cost is now visible in the status line and the
   // log rather than silent, which is the point.
   //
-  // ?voices=local pins the same-origin copy for offline work or a flaky link;
-  // ?voices=gh pins the GitHub raw mirror.
+  // ?=local pins the same-origin copy for offline work or a flaky link;
+  // ?=gh pins the GitHub raw mirror.
   return ["hf","gh","local"];
 }
 
@@ -968,7 +964,7 @@ async function fetchVoiceJson(path){
 
 // The Trellis-RIFT voice ships as ONE self-describing blob (metadata header +
 // 995,058 little-endian float32); snt_trellis splits it internally, so unlike
-// the piperlite voices there is no separate front/dec pair or meta.json.
+// the piperlite  there is no separate front/dec pair or meta.json.
 function loadTrellisBundle(onProgress){
   if(!trellisBundle){
     trellisBundle = (async () => {
@@ -990,7 +986,7 @@ function loadTrellisBundle(onProgress){
 //
 // This is lossy, so it is only applied where float16 is the reference rather
 // than an approximation of it. meta.json opts in with "weights":"f16", and only
-// the languages added on 2026-09-08 do -- every CER/WER number those voices
+// the languages added on 2026-09-08 do -- every CER/WER number those 
 // have was measured on their fp16 package, so the fp16 weights are the ones
 // that were scored. Every voice released before that still ships f32 and takes
 // the untouched path below, byte for byte.
@@ -1282,7 +1278,7 @@ async function synthVoice(key, text){
   return {pcm, ids, wall, sr:bundle.meta.sample_rate||SR};
 }
 // Trellis-RIFT lane. The phoneme path is NOT the Piper id table the other
-// voices use: espeak-ng emits IPA with stress marks and ties, trellis_frontend
+//  use: espeak-ng emits IPA with stress marks and ties, trellis_frontend
 // applies the Misaki normalization, and the model consumes a character-level
 // tokenization of the result. Verified against the Python packaging path on a
 // 159-sentence corpus (mcu/ports/wasm/verify_trellis_frontend_node.mjs).
@@ -1383,7 +1379,7 @@ async function synth(){
 let samplePlaying = null;
 async function playSample(btn){
   const key = btn.dataset.voice;
-  const v = VOICES.find(x => x.key === key);
+  const v = .find(x => x.key === key);
   const noteEl = btn.parentElement.querySelector(".sampnote");
   if(!v){ if(noteEl) noteEl.textContent = "no voice " + key; return; }
   if(samplePlaying) return;
